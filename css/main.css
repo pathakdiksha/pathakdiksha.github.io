@@ -29,8 +29,12 @@ p {
     color: #333;
 }
 footer {
+    
+     left: 0;
+  bottom: 0;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+
 }
 
 ul.posts { 
@@ -40,4 +44,16 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
