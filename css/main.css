@@ -46,15 +46,74 @@ ul.posts li {
     list-style: none;
 }
 
-.column {
-  float: left;
-  width: 33.33%%;
-  padding: 5px;
+.split {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.left {
+  left: 0;
+  background-color: lightgrey;
+}
+
+.right {
+  left: 50%;
+  background-color: none;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 160px;
+  border-radius: 70%;
+}
+
+.menuside {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+
+.pad{
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+padding: 6px 8px 6px 16px;
+display: block;
+}
+
+.pad a {
+    text-align: center;
+text-decoration: none;
+font-size: 25sx;
+padding: 6px 8px 6px 16px;
+display: block;
+}
+
+p.sansserif{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 20px;
+position: fixed;
+height: 50%;
+width: 50%;
+top: 50%;
+left: 40%;
+}
+
+a.fixa{
+position: fixed;
+top: 65%;
+left: 57%;
 }
