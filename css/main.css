@@ -46,6 +46,7 @@ ul.posts li {
     list-style: none;
 }
 
+<<<<<<< HEAD
 .split {
   height: 100%;
   width: 20%;
@@ -54,6 +55,12 @@ ul.posts li {
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+=======
+.column {
+  float: left;
+  width: 33.33%%;
+    padding: 5px;
+>>>>>>> ce0db513da337c601da28a94b95968f2767382b2
 }
 
 .left {
