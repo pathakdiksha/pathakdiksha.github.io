@@ -51,7 +51,7 @@ ul.posts li {
 /* Split the screen in half */
 .split {
   height: 100%;
-  width: 20%;
+  
   position: fixed;
   z-index: 1;
   top: 0;
@@ -62,27 +62,30 @@ ul.posts li {
 /* Control the left side */
 .left {
   left: 0;
+  width: 20%;
   background-color: whitesmoke;
 }
 
 /* Control the right side */
 .right {
-  right: 30%;
+  right: 0;
+  width: 80%;
   background-color: none;
 }
 
 /* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 40%;
+  transform: translate(-40%, -10%);
   text-align: center;
 }
 
 /* Style the image inside the centered container, if needed */
 .centered img {
-  width: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
